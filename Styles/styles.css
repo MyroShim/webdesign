@@ -1,0 +1,155 @@
+body
+{
+ 
+    background-color: rgb(125, 249, 255);
+    font-family:  Verdana;
+}
+header
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 2px solid  rgb(175, 36, 19);
+   
+}
+
+.header {
+    background-image: url(../Images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page1 {
+    background-image: url(../Images/retro_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page2 {
+    background-image: url(../Images/modern_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page3 {
+    background-image: url(../Images/nextgen_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index1 {
+    background-image: url(../Images/background_hex_neon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help {
+    background-image: url(../Images/help1_back.jpg);
+}
+nav
+{
+    padding: 5px;
+    background-color: rgb(175, 36, 19);
+}
+nav ul
+{
+ 
+    text-align: center;
+    font-size: 1.2em;
+ 
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: darkgray;
+    display: inline;
+    padding:  15px;
+    margin: 5px;
+    border: .2px solid  rgb(175, 36, 19);
+    border-radius: 10px;
+}
+ 
+nav ul li a
+{
+    color: rgb(175, 36, 19);
+    text-decoration: none;
+}
+nav ul li:hover
+{
+    background-color: rgb(98, 155, 182);
+}
+#active
+{
+    background-color: blue;
+}
+footer
+{
+    clear: both;
+    width: 100%;
+    font-size: 20px;
+    bottom: 0;
+    position: relative;
+    background-color: rgb(175, 36, 19);
+    text-align: center;
+    color: rgb(98, 155, 182);
+   
+}
+#content{
+    float: left;
+    width: 80%;
+    border: 2px solid  rgb(175, 36, 19);
+    color:  rgb(175, 36, 19);
+}
+h2{
+    color:  rgb(175, 36, 19);
+}
+#BigPic{
+width: 100%;
+}
+aside{
+ 
+    float: right;
+    width: 18.5%;
+    border: 2px solid rgb(175, 36, 19);
+ 
+}
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+aside ul li{
+    color: rgb(175, 36, 19);
+    text-decoration: none;
+}
+
+.moderng {
+    column-count: 3;
+    column-rule: 1px solid rgb(175, 36, 19);
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.nextgeng {
+    column-count: 3;
+    column-rule: 1px solid rgb(175, 36, 19);
+    column-gap: 50px;
+    padding: 2px;
+}
+
+
+.retrog {
+    column-count: 3;
+    column-rule: 1px solid rgb(175, 36, 19);
+    column-gap: 50px;
+    padding: 2px;
+    
+}
+
+h1 {
+  text-align: center;
+  color: rgb(175, 36, 19);
+}
+
+  
