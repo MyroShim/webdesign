@@ -1,0 +1,241 @@
+body
+{
+ 
+    background-color: rgb(125, 249, 255);
+    font-family:  Verdana;
+}
+header
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: navajowhite;
+    border: 2px solid  rgb(175, 36, 19);
+   
+}
+
+.header {
+    background-image: url(../Images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page1 {
+    background-image: url(../Images/retro_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.page2 {
+    background-image: url(../Images/modern_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.page3 {
+    background-image: url(../Images/nextgen_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.index1 {
+    background-color: rgb(70, 66, 66);
+    
+}
+
+.help {
+    background-color: rgb(70, 66, 66);
+}
+nav
+{
+    padding: 5px;
+    background-color: rgb(175, 36, 19);
+}
+nav ul
+{
+ 
+    text-align: center;
+    font-size: 1.2em;
+ 
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: darkgray;
+    display: inline;
+    padding:  15px;
+    margin: 5px;
+    border: .2px solid  rgb(175, 36, 19);
+    border-radius: 10px;
+}
+ 
+nav ul li a
+{
+    color: rgb(175, 36, 19);
+    text-decoration: none;
+}
+nav ul li:hover
+{
+    background-color: rgb(98, 155, 182);
+}
+#active
+{
+    background-color: blue;
+}
+footer
+{
+    clear: both;
+    width: 100%;
+    font-size: 20px;
+    bottom: 0;
+    position: relative;
+    background-color: rgb(175, 36, 19);
+    text-align: center;
+    color: rgb(98, 155, 182);
+   
+}
+#content{
+    float: left;
+    width: 80%;
+    color: white;
+    
+}
+
+#weeklynews{
+    color: yellow;
+}
+
+#zelda{
+    color: yellow;
+}
+
+#cod{
+    color: yellow;
+}
+
+#ps5{
+    color: yellow;
+}
+
+h2{
+    color:  rgb(175, 36, 19);
+}
+aside{
+ 
+    float: right;
+    width: 18.5%;
+    border: 2px solid rgb(175, 36, 19);
+ 
+}
+aside ul li a{
+    color: yellow;
+    text-decoration: none;
+}
+aside ul li{
+    color: yellow;
+    text-decoration: none;
+}
+
+.moderng {
+    color: white;
+}
+
+.nextgeng {
+    color: white;
+}
+
+
+.retrog {
+    color: white;
+    
+}
+
+.helpp {
+    column-count: 2;
+    column-rule: 1px solid rgb(175, 36, 19);
+    column-gap: 50px;
+    padding: 2px;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+  }
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+  }
+#button, #reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: blue;
+    border: 2px solid black;
+  }
+input[type="checkbox"] {width: 15px;}
+   
+#button {
+  margin-left: 138px;
+  }
+   
+#reset {
+  margin-left: 82px;}
+input[type="radio"] {width: 10px;}
+
+#contact1{
+    text-align: center;
+}
+
+#contactForm {
+    display: inline-block;
+    text-align: left;
+}
+
+#buttons {
+    margin-top: 10px;
+}
+table {
+    width:80%;
+    border :1px solid white;
+    border-collapse: collapse;
+    font-size:x-large;
+    text-align: center;
+    vertical-align: middle;
+    padding :2px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+th,td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+#map {
+    color: yellow;
+}
+
+thead th {
+  width: 25%;
+}
+
+.cell-highlight {
+  background-color: gold;
+  font-weight: bold;
+}
+
+.colour_tab
+{
+    color: rgb(175, 36, 19);
+    text-align: center;
+}
+  
