@@ -11,6 +11,7 @@
 </head>
 <body class="help">
         <header>
+            <!-- Navigation Menu -->
             <nav>
                 <ul>
                     <li><a href="index.html"> Home </a></li>
@@ -22,9 +23,10 @@
                 </nav>
         </header>
             <h1> Help </h1>
+            <!-- Use of contact form -->
             <section id="contact1" style="text-align: center;">
                 <h2 style="text-align: center;">Contact Us</h2>
-                <form id="contactForm" onsubmit="return validateForm()" style="display: inline-block; text-align: left;">
+                <form id="contactForm" action="http://foo.com" method="get" style="display: inline-block; text-align: left;">
                     <label for="first_name">First name: <span class="required">*</span></label>
                     <input type="text" name="first_name" id="first_name" autofocus required><br>
                     <label for="last_name">Last name: <span class="required">*</span></label>
@@ -36,7 +38,7 @@
                     <input type="radio" name="gender" id="gender" value="male"> Male
                     <input type="radio" name="gender" value="female"> Female
                     <input type="radio" name="gender" value="other" checked> Other <br>
-                    <!-- Example checkbox control -->
+
                     <label for="message">Where did you hear about us:</label>
                     <fieldset style="max-width: 500px;">
                         <input type="checkbox" name="internet" value="internet" checked> Internet <br>
@@ -45,7 +47,7 @@
                         <input type="checkbox" name="add" value="add"> Others <br>
                     </fieldset>
                     <br>
-                    <!-- Example free format text area control -->
+                 
                     <label for="message">Query:</label>
                     <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" maxlength="200"></textarea>
                     <div id="buttons" style="text-align: center;">
@@ -58,18 +60,20 @@
             <section id="maps">
                 <h2 id="map" style="text-align: center;">Location</h2>
                 <div style="text-align: center;">
+                <!-- Include google maps -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18640.069740512747!2d-8.501329557367317!3d54.26842331870687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1712741664241!5m2!1sen!2sie" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 </section>
-
+            <!-- Use of divider/section with 2 columns -->
             <div class="helpp">
-                <p> Thank you for visiting Arcade Raid Gaming. If you have any questions, feedback, or need assistance, feel free to reach out to our support team. We're here to help! </p>
+                <p> Thank you for visiting Arcade Raid Gaming. If you have any questions, feedback, or need assistance, feel free to reach out to contact us. We're here to help! </p>
                 <p> Have suggestions for improving our website? We'd love to hear from you! Your feedback helps us enhance your gaming experience. </p>
             </div>
         </main>
         <footer>
+            <!-- Use of navigation menu in footer -->
             <p><a href="index.html">Home</a> | <a href="Page1.html">Retro Gaming</a> | <a href="Page2.html">Modern Gaming</a> | <a href="Page3.html">Next Gen Gaming</a> | <a href="Page4.html">Help</a></p>
-            <p> &copy;Copyright 2024 Jamie Myers&copy; </p>
+            <p> Copyright &copy; 2024 Jamie M </p>
         </footer>
     </body>
 </html>    
