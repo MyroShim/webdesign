@@ -1,90 +1,131 @@
-body
+body /*All page bodies*/
 {
  
     background-color: rgb(125, 249, 255);
     font-family:  Verdana;
 }
-header
+header /*All page headers*/
 {
     background-repeat: no-repeat;
     background-size: cover;
     color: navajowhite;
-    border: 2px solid  rgb(175, 36, 19);
+    border: 2px solid  rgb(175, 36, 19); /*use of border */
    
 }
 
-.header {
-    background-image: url(../Images/header_image.jpg);
+.required /*Asterisks*/
+{
+    color: red;
+}
+.header /*home page header*/
+{
+    background-image: url(../Images/header_image.jpg); /* example use of background image */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.page1 {
+.page1 /*retro gaming/page 1*/
+{
     background-image: url(../Images/retro_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 
-.page2 {
+.page2 /*modern gaming/page 2*/
+{
     background-image: url(../Images/modern_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 
-.page3 {
+.page3 /*next gen gaming/page 3*/
+{
     background-image: url(../Images/nextgen_background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 
-.index1 {
+.index1 /*index/homepage body*/
+{
     background-color: rgb(70, 66, 66);
     
 }
 
-.help {
+.help /*help page body*/
+{
     background-color: rgb(70, 66, 66);
 }
-nav
+
+nav /*navigation menu*/
 {
-    padding: 5px;
+    padding: 5px; /* use of padding */
     background-color: rgb(175, 36, 19);
 }
-nav ul
+
+nav ul /*navigation menu*/
 {
  
     text-align: center;
     font-size: 1.2em;
  
 }
-nav ul li
+
+nav ul li /*navigation menu*/
 {
     list-style-type: none;
     background-color: darkgray;
     display: inline;
     padding:  15px;
-    margin: 5px;
+    margin: 5px; /*use of margin */
     border: .2px solid  rgb(175, 36, 19);
     border-radius: 10px;
 }
  
-nav ul li a
+nav ul li a /*navigation menu*/
 {
     color: rgb(175, 36, 19);
     text-decoration: none;
 }
-nav ul li:hover
+nav ul li:hover /*navigation menu*/
 {
     background-color: rgb(98, 155, 182);
 }
-#active
+
+.diamonds /*gaming companies bullet points*/
+{
+    list-style-type: none;
+    padding-left: 1;
+    margin-top: 0;
+}
+
+.diamonds li /*gaming companies bullet points*/
+{
+    margin-left: 1.25em;  
+    position: relative;
+}
+
+.diamonds li:before { /*Use of diamond bullet points */
+    content: '';
+    position: absolute;
+    left: -2em; 
+    top: 0.3em; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.75em 1em; /*use of borders */
+    border-color: transparent transparent transparent yellow; 
+    transform: rotate(45deg);
+}
+
+#active /*current page on navigation*/
 {
     background-color: blue;
 }
-footer
+
+footer /*all page footers*/
 {
     clear: both;
     width: 100%;
@@ -96,114 +137,141 @@ footer
     color: rgb(98, 155, 182);
    
 }
-#content{
+#content /*index main*/
+{
     float: left;
     width: 80%;
     color: white;
     
 }
 
-#weeklynews{
+#weeklynews /*weekly news title*/
+{
     color: yellow;
 }
 
-#zelda{
+#zelda /*zelda title*/
+{
     color: yellow;
 }
 
-#cod{
+#cod /*call of duty title*/
+{
     color: yellow;
 }
 
-#ps5{
+#ps5 /*playstation 5 title*/
+{
     color: yellow;
 }
 
-h2{
+h2 /*heading 2*/
+{
     color:  rgb(175, 36, 19);
 }
-aside{
+
+aside /*side menu*/
+{
  
     float: right;
     width: 18.5%;
     border: 2px solid rgb(175, 36, 19);
  
 }
-aside ul li a{
+
+aside ul li a /*side menu*/
+{
     color: yellow;
     text-decoration: none;
 }
-aside ul li{
+
+aside ul li /*side menu*/
+{
     color: yellow;
     text-decoration: none;
 }
 
-.moderng {
+.moderng /*modern gaming summary*/
+{
     color: white;
 }
 
-.nextgeng {
+.nextgeng /*next gen gaming summary*/
+{
     color: white;
 }
 
 
-.retrog {
+.retrog /*retro gaming summary*/
+{
     color: white;
     
 }
 
-.helpp {
+.helpp /*column on help page*/
+{
     column-count: 2;
     column-rule: 1px solid rgb(175, 36, 19);
     column-gap: 50px;
     padding: 2px;
 }
 
-h1 {
+h1 /*heading 1*/
+{
   text-align: center;
   color: yellow;
 }
 
-label {
+label /*contact form*/
+{
     float: left;
     width: 112px;
     padding-right: 10px;
     text-align: right;
-  }
-input {
+}
+input /*contact form*/
+{
     margin-left: 1em;
     margin-bottom: .5em;
     width: 220px;
-  }
-#button, #reset {
+}
+#button, #reset /*contact form*/
+{
     margin-top: .5em;
     width: 8em;
     background-color: blue;
     border: 2px solid black;
-  }
+}
 input[type="checkbox"] {width: 15px;}
    
-#button {
+#button /*contact form*/
+{
   margin-left: 138px;
-  }
+}
    
-#reset {
-  margin-left: 82px;}
+#reset /*contact form*/
+{
+  margin-left: 82px;
+}
 input[type="radio"] {width: 10px;}
 
-#contact1{
+#contact1 /*contact form*/
+{
     text-align: center;
 }
 
-#contactForm {
+#contactForm /*contact form*/
+{
     display: inline-block;
     text-align: left;
 }
 
-#buttons {
+#buttons /*contact form*/
+{
     margin-top: 10px;
 }
-table {
+table /*homepage table*/
+{
     width:80%;
     border :1px solid white;
     border-collapse: collapse;
@@ -215,25 +283,29 @@ table {
     margin-bottom: 35px;
 }
 
-th,td {
+th,td /*homepage table*/
+{
     border: 1px solid white;
     text-align: left;
     padding: 8px;
 }
-#map {
+#map /*location heading on help page*/
+{
     color: yellow;
 }
 
-thead th {
+thead th /*homepage table*/
+{
   width: 25%;
 }
 
-.cell-highlight {
+.cell-highlight /*highlight bestselling game*/
+{
   background-color: gold;
   font-weight: bold;
 }
 
-.colour_tab
+.colour_tab /*homepage table*/
 {
     color: rgb(175, 36, 19);
     text-align: center;
